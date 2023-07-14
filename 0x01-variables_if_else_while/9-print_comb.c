@@ -2,16 +2,21 @@
 
 /**
  * main - app entry
- * print all alphabets 
+ * print digit combinations
  * 
  * Return: 0 (success)
  */
 int main(void) {
     int num;
+    
     for (num = 0; num < 10; num++)
     {
-      printf("%d", num);
+       putchar(48 + num);
+       if(num != 9){
+           putchar(',');
+           putchar(' ');
+       }
     }
-    printf("\n");
+    putchar('\n');
     return (0);
 }
