@@ -2,22 +2,23 @@
 
 /**
  * main - app entry
- * print all alphabets 
+ * print all alphabets
  * first in uppercase then lower
- * 
+ *
  * Return: 0 (success)
  */
-int main(void) {
-    char alphabet;
+int main(void)
+{
+char alphabet;
 
-    for (alphabet ='a'; alphabet <= 'z'; alphabet++)
-    {
-      putchar(alphabet);
-    }
-    for (alphabet ='A'; alphabet <= 'Z'; alphabet++)
-    {
-      putchar(alphabet);
-    }
-    putchar('\n');
-    return (0);
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+putchar(alphabet);
+}
+for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+{
+putchar(alphabet);
+}
+putchar('\n');
+return (0);
 }
