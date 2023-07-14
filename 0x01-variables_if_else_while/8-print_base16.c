@@ -3,7 +3,7 @@
 /**
  * main - app entry
  * print all alphabets in reverse
- * 
+ *
  * Return: 0 (success)
  */
 int main(void)
