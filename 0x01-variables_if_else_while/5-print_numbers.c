@@ -2,7 +2,7 @@
 
 /**
  * main - app entry
- * print all alphabets 
+ * print all alphabets
  *
  * Return: 0 (success)
  */

@@ -2,15 +2,18 @@
 
 /**
  * main - app entry
- * print all numbers                                                                                                                                                   
+ * print all numbers
  *
  *Return: 0 (success)
  */
 int main(void)
 {
-for (int num = 0; num < 10; num++)
+int num
+
 {
-putchar(48+num);
+for (num = 0; num < 10; num++)
+{
+putchar(48 + num);
 }
 putchar('\n');
 return (0);
