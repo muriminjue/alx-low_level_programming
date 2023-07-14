@@ -3,7 +3,7 @@
 /**
  * main - app entry
  * print digit combinations
- * 
+ *
  * Return: 0 (success)
  */
 int main(void)
