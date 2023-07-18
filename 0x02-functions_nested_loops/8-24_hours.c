@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * jack_bauer - 24 hours count down
  */
