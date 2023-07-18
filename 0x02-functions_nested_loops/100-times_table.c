@@ -10,11 +10,11 @@ if (n < 15 && n > 0)
 {
 int j;
 
-for (j = 0; j <= 9; j++)
+for (j = 0; j <= n; j++)
 {
 int m;
 
-for (m = 0; m <= 9; m++)
+for (m = 0; m <= n; m++)
 {
 int value = j * m;
 
