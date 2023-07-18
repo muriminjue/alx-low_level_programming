@@ -2,8 +2,6 @@
 
 /**
  * main - writes alphabets in lowecase 10 times
- *
- * Return: 0
  */
 void print_alphabet_x10(void) 
 {
@@ -20,5 +18,4 @@ _putchar(alphabet);
 _putchar('\n');
 count++;
 }
-return (0);
 }

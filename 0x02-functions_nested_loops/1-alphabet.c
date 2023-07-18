@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - writes alphabets in lowecase
- *
- * Return: 0
+ * main - writes alphabets in lowercase
  */
 void print_alphabet(void) 
 {
@@ -14,5 +12,4 @@ for (alphabet = 97; alphabet <= 122; alphabet++)
 _putchar(alphabet);
 }
 _putchar('\n');
-return (0);
 }
