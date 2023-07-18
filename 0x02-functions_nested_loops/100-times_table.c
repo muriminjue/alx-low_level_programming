@@ -23,7 +23,6 @@ if (m > 0)
 {
 _putchar(',');
 _putchar(' ');
-_putchar(' ');
 }
 if (value / 10 < 1 && m > 0)
 {
