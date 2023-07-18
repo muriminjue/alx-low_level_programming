@@ -17,10 +17,8 @@ for (m = 0; m <= n; m++)
 {
 int value = j * m;
 if (m > 0)
-{
-_putchar(',');
-_putchar(' ');
-}
+  _putchar(',');
+  _putchar(' ');
 if (value / 10 < 1 && m > 0)
 {
 _putchar(' ');
