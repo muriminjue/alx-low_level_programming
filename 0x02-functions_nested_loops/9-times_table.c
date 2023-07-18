@@ -20,6 +20,9 @@ if (m > 0)
 _putchar(',');
 _putchar(' ');
 }
+if (value / 10 < 1){
+_putchar(' ');
+}
 if (value > 9)
 {
 _putchar('0'+ value / 10);
