@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - first 50 fibbonachi
+ * main - sum even fibbonachi below 4m
  * Return: 0 success
  */
 int main(void)
