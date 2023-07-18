@@ -7,14 +7,14 @@
 int main(void)
 {
 int count;
-unsigned int fib0 = 1, fib1 = 2, prevfeb;
+unsigned long int fib0 = 1, fib1 = 2, prevfeb;
 
-printf("%d, %d", fib0, fib1);
+printf("%lu, %lu", fib0, fib1);
 for (count = 0; count < 96; count++)
 {
 prevfeb = fib1;
 fib1 = fib0 + fib1;
-printf(", %d", fib1);
+printf(", %lu", fib1);
 fib0 = prevfeb;
 }
 printf("\n");
