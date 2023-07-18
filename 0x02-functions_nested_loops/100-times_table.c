@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * times_table - table of multiples
  * @n: integer to be computed
