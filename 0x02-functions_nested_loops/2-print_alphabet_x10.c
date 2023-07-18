@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - writes alphabets in lowecase 10 times
+ * print_alphabet_x10- writes alphabets in lowecase 10 times
  */
-void print_alphabet_x10(void) 
+void print_alphabet_x10(void)
 {
 int count = 0;
 
