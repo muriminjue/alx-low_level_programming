@@ -6,16 +6,17 @@
  */
 int main(void) 
 {
-int fib0 = 1, fib1 =2, prevfeb, count;
+int count;
+long long int fib0 = 1, fib1 =2, prevfeb;
+printf("%lld, %lld", fib0, fib1);
 
-printf("%d, %d", fib0, fib1);
-for (count = 0; count < 50; count ++)
+for (count = 0; count < 48; count ++)
 {
 prevfeb = fib1;
-fib1 += fib0;
-printf(", %d", fib1);
+fib1 = fib0 + fib1;
+printf(", %lld", fib1);
 fib0 = prevfeb;
 }
 printf("\n");
-return (0);
+return(0);
 }
