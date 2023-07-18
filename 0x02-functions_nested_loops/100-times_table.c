@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_table - table of multiples
  * @n: integer to be computed
@@ -28,7 +29,18 @@ if (value / 10 < 1 && m > 0)
 {
 _putchar(' ');
 }
-if (value > 9)
+if (value / 100 < 1 && m > 0)
+{
+_putchar(' ');
+}
+
+if (value / 100 >= 1)
+{
+_putchar('0' + value / 100);
+_putchar('0' + (value / 10) / 10);
+_putchar('0' + (value / 10) % 10);
+}
+else if (value > 9)
 {
 _putchar('0' + value / 10);
 _putchar('0' + value % 10);
