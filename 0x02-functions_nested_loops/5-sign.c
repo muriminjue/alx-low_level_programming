@@ -1,9 +1,10 @@
+#include "main.h"
+
 /**
  * print_sign - checks + or - integers
  * @n: any number
  * Return: int 1, o or -1
  */
-
 int print_sign(int n)
 {
 if (n > 0)
