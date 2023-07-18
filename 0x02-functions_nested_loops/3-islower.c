@@ -2,7 +2,7 @@
 
 /**
  * _islower- checks if is lowercase
- *
+ * @c: any alphabet
  * Return: int 1, o or -1
  */
 
@@ -17,3 +17,4 @@ else
 return (0);
 }
 }
+

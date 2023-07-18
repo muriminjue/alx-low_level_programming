@@ -2,7 +2,7 @@
 
 /**
  * _abs - return absolute value
- *
+ * @abs: any number 
  * Return: 0
  */
 

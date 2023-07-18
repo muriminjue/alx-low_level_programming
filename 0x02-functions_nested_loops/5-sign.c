@@ -1,6 +1,6 @@
 /**
  * print_sign - checks + or - integers
- *
+ * @n: any number
  * Return: int 1, o or -1
  */
 
