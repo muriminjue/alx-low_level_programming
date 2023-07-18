@@ -7,10 +7,10 @@
 int main(void)
 {
 int count;
-unsigned long int fib0 = 1, fib1 = 2, prevfeb;
+unsigned long fib0 = 1, fib1 = 2, prevfeb;
 
 printf("%lu, %lu", fib0, fib1);
-for (count = 0; count < 96; count ++)
+for (count = 0; count < 96; count++)
 {
 prevfeb = fib1;
 fib1 = fib0 + fib1;
@@ -18,5 +18,5 @@ printf(", %lu", fib1);
 fib0 = prevfeb;
 }
 printf("\n");
-return(0);
+return (0);
 }
