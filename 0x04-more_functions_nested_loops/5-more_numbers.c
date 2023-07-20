@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - display numbers 0-14 10 times
+ * more_numbers - display numbers 0-14 10 times
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int count;
 
