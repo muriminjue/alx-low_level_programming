@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-long int num = 612852475143, largest_prime;
+  long int num = 612852475143, largest_prime, prime;
 
-for (long int prime = 2; prime * prime <= num; prime++)
+for (prime = 2; prime * prime <= num; prime++)
 {
 if (num % prime == 0)
 {
