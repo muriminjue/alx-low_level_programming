@@ -9,7 +9,7 @@ int num = 0;
 
 while (num <= 9)
 {
-_putchar('0'+ num);
+_putchar('0' + num);
 num++;
 }
 _putchar('\n');

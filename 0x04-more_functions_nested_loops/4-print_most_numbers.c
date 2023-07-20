@@ -11,7 +11,7 @@ while (num <= 9)
 {
 if (num != 2 && num != 4)
 {
-_putchar('0'+ num);
+_putchar('0' + num);
 }
 num++;
 }

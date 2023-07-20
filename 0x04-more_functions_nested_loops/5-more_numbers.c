@@ -5,21 +5,21 @@
  */
 void print_most_numbers(void)
 {
-int count = 0;
+int count;
 
-for (; count < 10; count++)
+for (count = 0; count < 10; count++)
 {
 int num = 0;
 while (num <= 14)
 {
 if (num > 9)
 {
-_putchar('0'+ num / 10);
-_putchar('0'+ num % 10);
+_putchar('0' + num / 10);
+_putchar('0' + num % 10);
 }   
 else
 {
-_putchar('0'+ num);
+_putchar('0' + num);
 }
 num++;
 }
