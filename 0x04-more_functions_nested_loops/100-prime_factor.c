@@ -2,6 +2,7 @@
 
 /**
  * main - print largest prime number
+ * Return: 0 Success
  */
 int main(void)
 {
@@ -15,4 +16,5 @@ largest_prime = prime;
 }
 }
 printf("%ld \n", largest_prime);
+return (0);
 }
