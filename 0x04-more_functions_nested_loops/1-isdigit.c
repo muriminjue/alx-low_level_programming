@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - checks if uppercase
+ * _isdigit - checks if is int btwn 0-9
  * @c: The character to check
  * Return: On success uppercase 1 else 0
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
-return (c >= 'A' && c <= 'Z');
+return (c >= 48 && c <= 57);
 }
