@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_triangle - print triangle
  * @size: number of #
@@ -9,8 +11,7 @@ count = 0;
 
 if (size > 0)
 {
-do
-{
+do {
 int x, y;
 
 for (x = 1; x < size - count; x++)
@@ -23,8 +24,7 @@ _putchar(35);
 }
 _putchar('\n');
 count++;
-}
-while (count < size);
+} while (count < size);
 }
 else
 {
