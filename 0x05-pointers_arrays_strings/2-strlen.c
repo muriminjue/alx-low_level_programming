@@ -10,7 +10,6 @@ int _strlen(char *s)
 int i = 0;
 while (i >= 0)
 {
-_putchar(s[i]);
 if (s[i] == '\0')
 {
 break;
