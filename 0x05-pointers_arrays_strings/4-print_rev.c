@@ -16,7 +16,7 @@ break;
 }
 i++;
 }
-while (i >= 0)
+while (i > 0)
 {
 _putchar(s[i - 1]);
 i--;
