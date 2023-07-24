@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strlen - gewts length of a string
  * @s: string
