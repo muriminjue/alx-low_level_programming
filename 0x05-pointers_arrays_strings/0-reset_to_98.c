@@ -1,3 +1,5 @@
+#include  "main.h"
+
 /**
  * reset_to_98 - writes the character c to stdout
  * @n: pointer
