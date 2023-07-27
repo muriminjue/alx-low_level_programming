@@ -15,6 +15,6 @@ for (m = 0; m < n / 2; m++)
 {
 temp = a[m];
 a[m] = a[o];
-a[o--] = tmp;
+a[o--] = temp;
 }
 }
