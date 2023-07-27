@@ -17,3 +17,4 @@ temp = a[m];
 a[m] = a[o];
 a[o--] = tmp;
 }
+}
