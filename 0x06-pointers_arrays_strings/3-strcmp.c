@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * *_strcmp - function compares 2 strings
  * @s1: param pointer to a char
@@ -11,7 +13,8 @@ while (*s1 == *s2 && *s1 != '\0')
 s1++;
 s2++;
 }
-if (s1 !- s2){
+if (s1 != s2)
+{
 return (*s1 - *s2);
 }
 else
