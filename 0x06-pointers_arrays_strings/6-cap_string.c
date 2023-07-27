@@ -15,10 +15,10 @@ str[count] = str[count] - 32;
 }
 count++;
 
-while (str != '\0')
+while (str[count] != '\0')
 if (str[count] >= 'A' && str[count] <= 'z')
 {
-if ((s[count - 1] == ' ' || str[count - 1] == '\n'
+if ((str[count - 1] == ' ' || str[count - 1] == '\n'
 || str[count - 1] == '\t' || str[count - 1] == ','
 || str[count - 1] == ';' || str[count - 1] == '!'
 || str[count - 1] == '?' || str[count - 1] == '"'
@@ -28,7 +28,7 @@ if ((s[count - 1] == ' ' || str[count - 1] == '\n'
 {
 str[count] = str[count] - 32;
 }
-count++
+count++;
 }
-return (str)
+return (str);
 }
