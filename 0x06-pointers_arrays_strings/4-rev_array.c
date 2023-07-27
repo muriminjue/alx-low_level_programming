@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *reverse_array - function compares 2 strings
+ * reverse_array - function compares 2 strings
  * @a: param pointer to a array of integers
  * @n: param pointer to a length of a
  */

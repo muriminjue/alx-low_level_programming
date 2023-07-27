@@ -3,7 +3,7 @@
 /**
  * *string_toupper - function converts strings to uppercase
  * @str: param pointer to a string of char
- * Return:  string of uppercase chat
+ * Return:  string of uppercase char
  */
 char *string_toupper(char *str)
 {
