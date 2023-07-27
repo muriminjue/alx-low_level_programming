@@ -7,28 +7,28 @@
  */
 char *cap_string(char *str)
 {
-int count = 0;
+int i = 0, j;
 
-if (str[count] >= 97 && str[count] <= 122)
-{
-str[count] = str[count] - 32;
-}
-count++;
+char spec[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?',
+'"', '(', ')', '{', '}'};
 
-while (str[count] != '\0')
-if (str[count] >= 'A' && str[count] <= 'z')
+while (str[i] != '\0')
 {
-if ((str[count - 1] == ' ' || str[count - 1] == '\n'
-|| str[count - 1] == '\t' || str[count - 1] == ','
-|| str[count - 1] == ';' || str[count - 1] == '!'
-|| str[count - 1] == '?' || str[count - 1] == '"'
-|| str[count - 1] == '(' || str[count - 1] == ')'
-|| str[count - 1] == '{' || str[count - 1] == '}'
-|| str[count - 1] == '.') && (str[count] >= 'a' && str[count] <= 'z'))
+if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
 {
-str[count] = str[count] - 32;
+str[i] = str[i] - 32;
 }
-count++;
+for (j = 0; j < 13; j++)
+{
+if (str[i] == spec[j])
+{
+if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+{
+str[i + 1] = str[i + 1] - 32;
+}
+}
+}
+i++;
 }
 return (str);
 }
