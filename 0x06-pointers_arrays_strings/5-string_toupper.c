@@ -9,13 +9,13 @@ char *string_toupper(char *str)
 {
 int count = 0;
 
-while (str != '\0')
+while (str[count] != '\0')
 {
 if (str[count] >= 'a' && str[count] <= 'z')
 {
 str[count] = str[count] - 32;
 }
-count++
+count++;
 }
-return (str)
+return (str);
 }
