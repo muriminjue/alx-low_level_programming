@@ -23,7 +23,7 @@ else
 break;
 }
 }
-if (needle[j])
+if (needle[n])
 {
 m++;
 n = 0;
