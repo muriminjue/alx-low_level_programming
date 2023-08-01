@@ -20,6 +20,7 @@ if (s[m] == accept[n])
 o = 0;
 break;
 }
+}
 if (o == 1)
 {
 break;
