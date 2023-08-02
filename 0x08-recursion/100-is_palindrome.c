@@ -48,8 +48,6 @@ return (check_pal(s, l1 + 1, l2 - 1));
  */
 int is_palindrome(char *s)
 {
-int n;
-
 if (*s == '\0')
 {
 return (0);
