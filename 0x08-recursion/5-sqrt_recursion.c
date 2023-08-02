@@ -3,7 +3,7 @@
 /**
  * _check_square - iterates until  root
  * @a: an possible root
- * @b: an integer 
+ * @b: an integer
  * Return: int square root of b or -1 if error
  */
 int _check_square(int a, int b)
@@ -25,7 +25,7 @@ return (_check_square(a + 1, b));
 
 /**
  * _sqrt_recursion - returns root of n
- * @n: an integer 
+ * @n: an integer
  * Return: root of n or -1 if error
  */
 int _sqrt_recursion(int n)
