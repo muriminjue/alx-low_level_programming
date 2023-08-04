@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
 
 /**
  * main - sum of args
@@ -15,7 +14,7 @@ int sum = 0, count = argc - 1, pos;
 
 while (count > 0)
 {
-for (pos = 0; pos < strlen(argv[count]); pos++)
+for (pos = 0; argv[count][pos] != '\0'; pos++)
 {
 if (!isdigit(argv[count][pos]))
 {
