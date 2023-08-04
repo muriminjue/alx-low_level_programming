@@ -6,7 +6,7 @@
  * @argv: array of argument pointers
  * Return: 0 id succes
  */
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[] __attribute__((unused))) 
 {
 printf("%s\n", argv[0]);
 return (0);
