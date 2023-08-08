@@ -10,41 +10,40 @@
  */
 int **alloc_grid(int width, int height)
 {
-int **twodarr;
-int m, n;
+int **gridarr;
+int i, j;
 
-if (height <= 0 || width <= 0)
+if (width < 1 || height < 1)
 {
 return (NULL);
 }
-
-twodarr = (int **) malloc(sizeof(int *) * height);
-
-if (twodarr == NULL)
+gridarr = malloc(height * sizeof(int *));
+if (gridarr == NULL)
 {
+free(gridarr);
 return (NULL);
 }
 
-for (m = 0; m < height; m++)
+for (i = 0; i < height; i++)
 {
-twodarr[m] = (int *) malloc(sizeof(int) * width);
-if (twodarr[m] == NULL)
+gridarr[i] = malloc(width * sizeof(int));
+if (gridarr[i] == NULL)
 {
-free(twodarr);
+for (i--; i >= 0; i--)
+{
+free(gridarr[i]);
 }
-for (n = 0; n <= m; m++)
-{
-free(twodarr[n]);
+free(gridarr);
 return (NULL);
 }
 }
 
-for (m = 0; m < height; m++)
+for (i = 0; i < height; i++)
 {
-for (n = 0; n < width; n++)
+for (j = 0; j < width; j++)
 {
-twodarr[m][n] = 0;
+gridarr[i][j] = 0;
 }
 }
-return (twodarr);
+return (gridarr);
 }
