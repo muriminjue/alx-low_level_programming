@@ -1,9 +1,11 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
  * **alloc_grid - creates a two dimensional array of int 0s
  * @width: width of the matrix
  * @height: height of the matrix
+ *
  * Return: pointer to the created matrix (Success) or NULL (Error)
  */
 int **alloc_grid(int width, int height)
@@ -18,7 +20,7 @@ return (NULL);
 
 twodarr = (int **) malloc(sizeof(int *) * height);
 
-if (twodarr = Null )
+if (twodarr == NULL)
 {
 return (NULL);
 }
@@ -29,7 +31,9 @@ twodarr[m] = (int *) malloc(sizeof(int) * width);
 if (twodarr[m] == NULL)
 {
 free(twodarr);
+}
 for (n = 0; n <= m; m++)
+{
 free(twodarr[n]);
 return (NULL);
 }
