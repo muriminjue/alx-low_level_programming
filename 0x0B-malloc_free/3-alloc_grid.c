@@ -11,9 +11,14 @@ int **alloc_grid(int width, int height)
 int **twodarr;
 int m, n;
 
+if (height <= 0 || width <= 0)
+{
+return (NULL);
+}
+
 twodarr = (int **) malloc(sizeof(int *) * height);
 
-if (twodarr == NULL || height <= 0 || width <= 0)
+if (twodarr = Null )
 {
 return (NULL);
 }
