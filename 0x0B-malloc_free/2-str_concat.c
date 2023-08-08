@@ -30,7 +30,7 @@ len2++;
 }
 
 max = len1 + len2;
-news = (char *)malloc(sizeof(char) * (len + 1));
+news = (char *)malloc(sizeof(char) * (max + 1));
 if (news == NULL)
 {
 return (NULL);
