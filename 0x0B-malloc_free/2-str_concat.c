@@ -28,7 +28,7 @@ return (NULL);
 
 if (s1)
 {
-for (i = 0; i < len1; i++)
+for (i = 0; s1[i] != '\0'; i++)
 {
 news[i] = s1[i];
 i++;
@@ -37,7 +37,7 @@ i++;
 
 if (s2)
 {
-for (j = 0; j < len2; j++)
+for (j = 0; s2[j] != '\0'; j++)
 {
 news[i] = s2[j];
 i++;
