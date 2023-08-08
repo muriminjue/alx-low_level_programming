@@ -8,7 +8,6 @@
 int word_count(char *str)
 {
 int space = 0, c, w = 0;
-
 for (c = 0; str[c] != '\0'; c++)
 {
 if (str[c] == ' ')
@@ -32,25 +31,21 @@ return (w);
 char **strtow(char *str)
 {
 char **matrix, *tmp;
-int m, n = 0, len = 0, words, o = 0, start, end;
-
+int m, n = 0, len = 0, words = word_count(str), o = 0, start, end;
 while (*(str + len))
 {
 len++;
 }
 words = word_count(str);
-
 if (words == 0)
 {
 return (NULL);
 }
-
 matrix = (char **) malloc(sizeof(char *) * (words + 1));
 if (matrix == NULL)
 {
 return (NULL);
 }
-
 for (m = 0; m <= len; m++)
 {
 if (str[m] == ' ' || str[m] == '\0')
@@ -79,7 +74,6 @@ start = m;
 }
 }
 matrix[n] = NULL;
-
 return (matrix);
 }
 
