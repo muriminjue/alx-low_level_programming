@@ -20,8 +20,8 @@ while (s2 && s2[len2])
 len2++;
 }
 
-s3 = malloc(sizeof(char) * (len1 + len2 + 1));
-if (s3 == NULL)
+news = malloc(sizeof(char) * (len1 + len2 + 1));
+if (news == NULL)
 {
 return (NULL);
 }
