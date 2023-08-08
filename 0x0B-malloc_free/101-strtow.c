@@ -15,7 +15,7 @@ if (str[c] == ' ')
 {
 space = 0;
 }
-else if (flag == 0)
+else if (space == 0)
 {
 space = 1;
 w++;
